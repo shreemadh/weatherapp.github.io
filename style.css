@@ -1,0 +1,75 @@
+
+/* Reset some default styles */
+body, h1, button, input {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style the main container */
+#app {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Style the header */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style the input field */
+#cityInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style the button */
+#fetchWeather {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#fetchWeather:hover {
+    background-color: #0056b3;
+}
+
+/* Style the weather result container */
+#weatherResult {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* Set the background image for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('wae.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Reset some default styles */
+body, h1, button, input {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* The rest of your existing styles here */
